@@ -1,7 +1,12 @@
 import styled from 'styled-components';
 
 export const SmartHotelSection = styled.div`
-  text-align: center;
-  font-size: 3rem;
+  font-size: 1.6rem;
   font-weight: 400;
+  color: ${({ theme }) => theme.colors.blue.navi};
+
+  span {
+    font-weight: bolder;
+    color: ${({ theme }) => theme.colors.gray[900]};
+  }
 `;

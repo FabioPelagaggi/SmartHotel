@@ -1,13 +1,11 @@
-import SmartHotelLogo from "../SmartHotelLogo";
+import { ChartLine } from 'phosphor-react';
 import UserData from "../UserData";
-import { ChartLine, } from 'phosphor-react';
 import { MenuText, NavbarSection, NavMenu, NavMenuItem } from "./style";
 
 export default function Navbar() {
     return (
         <NavbarSection>
             <NavMenu>
-                <SmartHotelLogo />
                 <UserData />
                 <NavMenu>
                     <NavMenuItem>

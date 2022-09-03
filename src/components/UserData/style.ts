@@ -5,7 +5,7 @@ export const UserDataSection = styled.div`
   flex-direction: row;
 `;
 
-export const UserImg = styled.img`
+export const UserImg = styled.div`
 
 `;
 

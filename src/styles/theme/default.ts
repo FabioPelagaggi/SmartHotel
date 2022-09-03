@@ -1,5 +1,8 @@
 export default {
     colors: {
+      background: {
+        100: '#F5F5F5',
+      },
       green: {
         50: '#F7F9F9',
         100: '#DCE9E2',
@@ -7,6 +10,7 @@ export default {
         700: '#00453A',
       },
       gray: {
+        200: '#EBEFF2',
         300: '#949799',
         500: '#495057',
         900: '#212529',

@@ -1,16 +1,18 @@
-import { useState } from 'react'
 import { ThemeProvider } from 'styled-components';
-import Navbar from './components/Navbar'
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import GlobalStyles from './styles/global';
 
-import defaultTheme from '/src/styles/theme'
+import DefaultTheme from './styles/theme/default';
 
 function App() {
   return (
-
-    <ThemeProvider theme={defaultTheme}>
+    <ThemeProvider theme={DefaultTheme}>
+      <GlobalStyles />
+      <Header />
       <Navbar />
     </ThemeProvider>
   )
 }
 
-export default App
+export default App;
