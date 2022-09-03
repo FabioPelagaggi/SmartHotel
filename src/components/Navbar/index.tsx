@@ -1,19 +1,19 @@
 import { ChartLine } from 'phosphor-react';
 import UserData from "../UserData";
-import { MenuText, NavbarSection, NavMenu, NavMenuItem } from "./style";
+import { MenuText, NavbarSection, NavMenuBox, NavMenu, NavMenuItem } from "./style";
 
 export default function Navbar() {
     return (
         <NavbarSection>
-            <NavMenu>
+            <NavMenuBox>
                 <UserData />
                 <NavMenu>
                     <NavMenuItem>
-                        <ChartLine size={20} />
+                        <ChartLine />
                         <MenuText>Painel</MenuText>
                     </NavMenuItem>
                 </NavMenu>
-            </NavMenu>
+            </NavMenuBox>
         </NavbarSection>
     )
 }

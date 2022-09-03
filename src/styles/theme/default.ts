@@ -10,6 +10,7 @@ export default {
         700: '#00453A',
       },
       gray: {
+        steelBlue: '#C2CFE0',
         200: '#EBEFF2',
         300: '#949799',
         500: '#495057',

@@ -4,25 +4,33 @@ export const NavbarSection = styled.aside`
   display: flex;
   position: absolute;
   z-index: 999;
-  width: 15rem;
+  width: auto;
   height: 100%;
+  padding: 2rem;
   background-color: #ffffff;
+  
+`;
+
+export const NavMenuBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0.2rem;
+  background-color: ${({ theme }) => theme.colors.yellow[100]};
 `;
 
 export const NavMenu = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  width: 100%;
-
-  color: white;
+  width: auto;
+  background-color: ${({ theme }) => theme.colors.blue['navi']};
+  color: ${({ theme }) => theme.colors.gray['steelBlue']};
 `;
 
 export const NavMenuItem = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: start;
-  width: 100%;
+  background-color: ${({ theme }) => theme.colors.red[100]};
 `;
 
 export const MenuText = styled.div`
