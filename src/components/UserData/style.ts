@@ -4,12 +4,15 @@ export const UserDataSection = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  
+
 `;
 
 export const UserImg = styled.div`
   padding: 1rem;
-  border-radius: 50%;
+
+  img {
+    border-radius: 50%;
+  }
 `;
 
 export const UserText = styled.div`
@@ -26,5 +29,5 @@ export const UserName = styled.div`
 
 export const UserEmail = styled.div`
   font-size: 0.75rem;
-  color: ${({ theme }) => theme.colors.black['steelBlue']};
+  color: ${({ theme }) => theme.colors.gray['steelBlue']};
 `;
